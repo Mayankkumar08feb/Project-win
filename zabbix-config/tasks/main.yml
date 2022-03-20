@@ -1,0 +1,6 @@
+---
+- name: Zabbix installation
+  package:
+    name: "{{ apache_packages }}"
+    state: "{{apache_packages_state }}"
+    

@@ -1,0 +1,9 @@
+---
+apache_packages:
+  - "epel-release"
+  - "httpd"
+  - "openssl"
+  - "mod_ssl"
+
+apache_packages_state: latest
+
